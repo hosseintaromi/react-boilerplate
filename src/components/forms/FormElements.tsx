@@ -1,0 +1,48 @@
+import { FormContainer } from "@components/forms/FormContainer";
+import { AutocompleteElement } from "@components/forms/AutocompleteElement";
+import { TextFieldElement } from "@components/forms/TextFieldElement";
+import { CheckboxButtonGroup } from "@components/forms/CheckboxButtonGroup";
+import { CheckboxElement } from "@components/forms/CheckboxElement";
+import { DatePickerElement } from "@components/forms/DatePickerElement";
+import { DateTimePickerElement } from "@components/forms/DateTimePickerElement";
+import { MobileDatePickerElement } from "@components/forms/MobileDatePickerElement";
+import { TimePickerElement } from "@components/forms/TimePickerElement";
+import { MultiSelectElement } from "@components/forms/MultiSelectElement";
+import { PasswordElement } from "@components/forms/PasswordElement";
+import { PasswordRepeatElement } from "@components/forms/PasswordRepeatElement";
+import { RadioButtonGroup } from "@components/forms/RadioButtonGroup";
+import { SelectElement } from "@components/forms/SelectElement";
+import { SliderElement } from "@components/forms/SliderElement";
+import { SwitchElement } from "@components/forms/SwitchElement";
+import { TextareaAutosizeElement } from "@components/forms/TextareaAutosizeElement";
+import { ToggleButtonGroupElement } from "@components/forms/ToggleButtonGroupElement";
+import { DatePickerJalaliElement } from "@components/forms/DatePickerJalaliElement";
+import { UploaderElement } from "@components/forms/UploaderElement";
+import { EditorElement } from "@components/forms/Editor";
+import { memo } from "react";
+
+const FormElements = () => <></>;
+
+FormElements.Container = memo(FormContainer);
+FormElements.Autocomplete = memo(AutocompleteElement);
+FormElements.CheckboxButtonGroup = memo(CheckboxButtonGroup);
+FormElements.Checkbox = memo(CheckboxElement);
+FormElements.DatePickerJalali = memo(DatePickerJalaliElement);
+FormElements.DatePicker = memo(DatePickerElement);
+FormElements.DateTimePicker = memo(DateTimePickerElement);
+FormElements.Editor = memo(EditorElement);
+FormElements.MobileDatePicker = memo(MobileDatePickerElement);
+FormElements.TimePicker = memo(TimePickerElement);
+FormElements.MultiSelect = memo(MultiSelectElement);
+FormElements.Password = memo(PasswordElement);
+FormElements.PasswordRepeat = memo(PasswordRepeatElement);
+FormElements.RadioButton = memo(RadioButtonGroup);
+FormElements.Select = memo(SelectElement);
+FormElements.Slider = memo(SliderElement);
+FormElements.Switch = memo(SwitchElement);
+FormElements.Textarea = memo(TextareaAutosizeElement);
+FormElements.TextField = memo(TextFieldElement);
+FormElements.ToggleButtonGroup = memo(ToggleButtonGroupElement);
+FormElements.Uploader = memo(UploaderElement);
+
+export { FormElements };
